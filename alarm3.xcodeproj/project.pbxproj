@@ -12,6 +12,7 @@
 		2829586B1DB556CA0028A9B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282958691DB556CA0028A9B7 /* Main.storyboard */; };
 		2829586D1DB556CA0028A9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2829586C1DB556CA0028A9B7 /* Assets.xcassets */; };
 		282958701DB556CA0028A9B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2829586E1DB556CA0028A9B7 /* LaunchScreen.storyboard */; };
+		282958781DB638390028A9B7 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 282958771DB638380028A9B7 /* help.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2829586C1DB556CA0028A9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2829586F1DB556CA0028A9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		282958711DB556CA0028A9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282958771DB638380028A9B7 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		282958641DB556CA0028A9B7 /* alarm3 */ = {
 			isa = PBXGroup;
 			children = (
+				282958771DB638380028A9B7 /* help.png */,
 				282958651DB556CA0028A9B7 /* AppDelegate.swift */,
 				282958671DB556CA0028A9B7 /* ViewController.swift */,
 				282958691DB556CA0028A9B7 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282958781DB638390028A9B7 /* help.png in Resources */,
 				282958701DB556CA0028A9B7 /* LaunchScreen.storyboard in Resources */,
 				2829586D1DB556CA0028A9B7 /* Assets.xcassets in Resources */,
 				2829586B1DB556CA0028A9B7 /* Main.storyboard in Resources */,
@@ -299,6 +303,7 @@
 				282958761DB556CA0028A9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
